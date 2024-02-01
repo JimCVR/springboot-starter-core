@@ -1,4 +1,4 @@
-package com.udemy.springbootcourse.rest;
+package com.udemy.springbootcourse.quickstart;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

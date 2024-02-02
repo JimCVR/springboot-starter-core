@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 // @Lazy creates the bean when needed
 @Component
 public class BasketballCoach implements Coach {
-
     public BasketballCoach() {
         System.out.println("Deploying: "+ this.getClass().getSimpleName());
     }

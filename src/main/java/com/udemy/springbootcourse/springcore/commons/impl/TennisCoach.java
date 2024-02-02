@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 //Prototype beans are lazy by default. There is no need to use the @Lazy annotation for prototype scopes beans.
 @Component
 public class TennisCoach implements Coach {
-
     public TennisCoach() {
         System.out.println("Deploying: "+ this.getClass().getSimpleName());
     }

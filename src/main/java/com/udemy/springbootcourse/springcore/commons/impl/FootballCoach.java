@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 @Component
 @Primary
 public class FootballCoach implements Coach {
-
     public FootballCoach() {
         System.out.println("Deploying: "+ this.getClass().getSimpleName());
     }
